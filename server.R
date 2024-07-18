@@ -1,22 +1,11 @@
-setwd("C:/Users/Hp/Desktop/Sail Class-20240629T191341Z-001/Sail Class2/Iris folder")
+setwd("C:/Users/Open user/Desktop/iris-prediction")
 
-library(shiny)
 
 if(!require(pacman)) install.packages("pacman")
 
 pacman::p_load(
-  tidyverse,
-  caret,
-  kernlab,
-  ggplot2,
-  ISLR,
-  Hmisc,
-  gridExtra,
-  manipulate,
-  broom,
-  BSDA,
-  rsample,
   tidymodels,
+  shiny,
   ranger
 )
 
